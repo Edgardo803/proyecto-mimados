@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mimados · Peluquería Canina en Alhama de Murcia</title>
+  <meta name="description" content="Mimados, peluquería canina profesional en el centro de Alhama de Murcia. Baño, corte, estética y cuidado para tu mascota con profesional diplomada. Reserva por WhatsApp." />
+  <meta name="keywords" content="peluquería canina, Alhama de Murcia, Mimados, estética canina, corte perros, baño mascotas, Murcia" />
+  <meta property="og:title" content="Mimados · Peluquería Canina Alhama de Murcia" />
+  <meta property="og:description" content="Tu mascota merece lo mejor. Peluquería canina profesional con diplomas en el corazón de Alhama de Murcia." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <header id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="logo" aria-label="Mimados inicio">
+        <span class="logo-paw">🐾</span>
+        <span class="logo-text">Mimados</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks" aria-label="Menú principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#galeria">Galería</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#reserva" class="btn-nav">Reservar</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio" aria-label="Bienvenida">
+    <div class="hero-overlay"></div>
+    <img src="mimados-fachada.jpg" alt="Fachada de Mimados Peluquería Canina en Alhama de Murcia" class="hero-bg" />
+    <div class="hero-content">
+      <div class="hero-badge">⭐ 9.8 / 10 · Valoración de clientes</div>
+      <h1>Tu mascota merece<br/><em>ser mimada</em></h1>
+      <p class="hero-sub">Peluquería &amp; Estética Canina profesional<br/>en el corazón de Alhama de Murcia</p>
+      <div class="hero-btns">
+        <a href="#reserva" class="btn-primary" id="hero-reservar">Reservar cita 🐶</a>
+        <a href="#servicios" class="btn-secondary">Ver servicios</a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== FRANJA STATS ===== -->
+  <section class="stats-band" aria-label="Estadísticas">
+    <div class="stats-container">
+      <div class="stat">
+        <span class="stat-num">9.8</span>
+        <span class="stat-label">/ 10 valoración</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat">
+        <span class="stat-num">+25</span>
+        <span class="stat-label">años de experiencia</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat">
+        <span class="stat-num">2</span>
+        <span class="stat-label">diplomas oficiales</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat">
+        <span class="stat-num">🏠</span>
+        <span class="stat-label">Centro del pueblo</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICIOS ===== -->
+  <section class="section" id="servicios" aria-labelledby="servicios-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Lo que hacemos</span>
+        <h2 id="servicios-title">Nuestros Servicios</h2>
+        <p>Cada mascota recibe una atención personalizada y llena de cariño</p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card" aria-label="Baño y secado">
+          <div class="service-icon" aria-hidden="true">🛁</div>
+          <h3>Baño &amp; Secado</h3>
+          <p>Baño con productos de alta calidad adaptados al tipo de pelo. Secado profesional para un resultado perfecto.</p>
+        </article>
+        <article class="service-card featured" aria-label="Corte y estilismo">
+          <div class="service-icon" aria-hidden="true">✂️</div>
+          <div class="badge-featured">Más popular</div>
+          <h3>Corte &amp; Estilismo</h3>
+          <p>Cortes a medida según la raza, adaptados a tus preferencias. Tu perro siempre impecable y con su mejor look.</p>
+        </article>
+        <article class="service-card" aria-label="Estética completa">
+          <div class="service-icon" aria-hidden="true">✨</div>
+          <h3>Estética Completa</h3>
+          <p>Limpieza de oídos, corte de uñas, cepillado dental e higiene integral para el bienestar total de tu mascota.</p>
+        </article>
+        <article class="service-card" aria-label="Accesorios y productos">
+          <div class="service-icon" aria-hidden="true">🎀</div>
+          <h3>Accesorios &amp; Productos</h3>
+          <p>Amplia selección de accesorios, juguetes, piensos y productos de cuidado de primeras marcas.</p>
+        </article>
+        <article class="service-card" aria-label="Tratamiento antiparasitario">
+          <div class="service-icon" aria-hidden="true">🛡️</div>
+          <h3>Antiparasitarios</h3>
+          <p>Productos veterinarios antiparasitarios de calidad (Seresto, etc.) para mantener a tu mascota protegida.</p>
+        </article>
+        <article class="service-card" aria-label="Consulta y asesoramiento">
+          <div class="service-icon" aria-hidden="true">💬</div>
+          <h3>Asesoramiento</h3>
+          <p>Te orientamos sobre el cuidado específico de tu raza, alimentación y rutinas de higiene en casa.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NOSOTROS / PROFESIONALISMO ===== -->
+  <section class="section section-alt" id="nosotros" aria-labelledby="nosotros-title">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-tag">Nuestra historia</span>
+          <h2 id="nosotros-title">Profesionalismo con corazón</h2>
+          <p>En <strong>Mimados</strong> creemos que cada perro merece un trato digno, cariñoso y experto. Nuestra peluquera, <strong>Isabel Soria Melgarejo</strong>, lleva más de 25 años dedicándose en cuerpo y alma a la estética canina, formándose en los mejores centros de España.</p>
+          <p>La confianza que depositas en nosotros es nuestra mayor responsabilidad. Por eso trabajamos con productos de calidad, técnicas gentiles y toda la paciencia que tu mascota necesita.</p>
+          <div class="about-badges">
+            <div class="about-badge">
+              <span class="badge-icon" aria-hidden="true">♿</span>
+              <span>Acceso silla de ruedas</span>
+            </div>
+            <div class="about-badge">
+              <span class="badge-icon" aria-hidden="true">💳</span>
+              <span>Tarjeta y NFC</span>
+            </div>
+            <div class="about-badge">
+              <span class="badge-icon" aria-hidden="true">🚻</span>
+              <span>Sanitario disponible</span>
+            </div>
+          </div>
+          <a href="#reserva" class="btn-primary" id="about-reservar">Reservar ahora</a>
+        </div>
+        <div class="about-images">
+          <img src="tina.jpg" alt="Mascota siendo bañada en Mimados" class="about-img about-img-main" />
+          <img src="peludin.webp" alt="Perro peluquín recién arreglado" class="about-img about-img-float" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DIPLOMAS ===== -->
+  <section class="section" id="diplomas" aria-labelledby="diplomas-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Formación oficial</span>
+        <h2 id="diplomas-title">Calificación Sobresaliente</h2>
+        <p>Isabel Soria Melgarejo está acreditada por dos de los centros de enseñanza más reconocidos de España</p>
+      </div>
+      <div class="diplomas-grid">
+        <figure class="diploma-card">
+          <div class="diploma-frame">
+            <img src="mimados-diploma.jpg" alt="Diploma en Peluquería y Estética Canina expedido por Idea Institut d'Estudis Aplicats a Isabel Soria Melgarejo" loading="lazy" />
+          </div>
+          <figcaption>
+            <strong>Idea Institut d'Estudis Aplicats</strong>
+            <span>Peluquería y Estética Canina · Barcelona, 2000</span>
+          </figcaption>
+        </figure>
+        <figure class="diploma-card">
+          <div class="diploma-frame">
+            <img src="mimados-diploma2.jpg" alt="Diploma del CCC Centro de Estudios en Peluquería y Estética Canina con calificación Sobresaliente a Isabel Soria Melgarejo" loading="lazy" />
+          </div>
+          <figcaption>
+            <strong>CCC Centro de Estudios</strong>
+            <span>Peluquería y Estética Canina · Calificación: <em>Sobresaliente</em></span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERÍA ===== -->
+  <section class="section section-alt" id="galeria" aria-labelledby="galeria-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nuestro espacio</span>
+        <h2 id="galeria-title">Galería</h2>
+        <p>Un ambiente cuidado, limpio y lleno de amor para tus mascotas</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-item--tall" aria-label="Interior con productos de calidad">
+          <img src="mimados-belleza.jpg" alt="Interior de Mimados, vitrina con productos profesionales de peluquería canina" loading="lazy" />
+          <figcaption>Productos profesionales de primera calidad</figcaption>
+        </figure>
+        <figure class="gallery-item" aria-label="Accesorios para mascotas">
+          <img src="accesorios-perros.jpg" alt="Selección de accesorios para perros disponibles en Mimados" loading="lazy" />
+          <figcaption>Amplia gama de accesorios</figcaption>
+        </figure>
+        <figure class="gallery-item" aria-label="Juguetes y piensos">
+          <img src="juguetes-piensos.jpg" alt="Juguetes y piensos para mascotas disponibles en el establecimiento" loading="lazy" />
+          <figcaption>Juguetes y nutrición</figcaption>
+        </figure>
+        <figure class="gallery-item" aria-label="Perro feliz con el paseo">
+          <img src="equipo.jpg" alt="Tres perros felices paseando, listos para su sesión de peluquería" loading="lazy" />
+          <figcaption>Mascotas relajadas y felices</figcaption>
+        </figure>
+        <figure class="gallery-item" aria-label="Perro tierno con su dueno">
+          <img src="tierno.jpg" alt="Perro tierno recibiendo cariño" loading="lazy" />
+          <figcaption>Amor y dedicación</figcaption>
+        </figure>
+        <figure class="gallery-item" aria-label="Rey el perro">
+          <img src="rey.jpg" alt="Cliente de Mimados, perro con pelaje perfectamente arreglado" loading="lazy" />
+          <figcaption>Resultados que enamoran</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HORARIOS ===== -->
+  <section class="section horarios-section" id="horarios" aria-labelledby="horarios-title">
+    <div class="container">
+      <div class="horarios-wrapper">
+        <div class="horarios-text">
+          <span class="section-tag">¿Cuándo puedes venir?</span>
+          <h2 id="horarios-title">Horario de Atención</h2>
+          <p>Estamos en el centro del pueblo para que sea fácil visitarnos. Llama o escríbenos por WhatsApp para reservar tu cita.</p>
+          <a href="https://wa.me/34660294979?text=Hola%20Mimados%2C%20me%20gustar%C3%ADa%20reservar%20una%20cita%20para%20mi%20mascota%20%F0%9F%90%BE"
+             class="btn-whatsapp" target="_blank" rel="noopener noreferrer" id="horarios-whatsapp"
+             aria-label="Reservar cita por WhatsApp al 660 29 49 79">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 0C5.374 0 0 5.373 0 12c0 2.116.553 4.103 1.518 5.83L.057 23.486a.5.5 0 0 0 .612.612l5.656-1.461A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm6.244 16.912c-.265.742-1.543 1.416-2.121 1.498-.54.077-1.224.11-1.977-.124a18.06 18.06 0 0 1-1.79-.663c-3.15-1.35-5.21-4.5-5.368-4.71-.156-.21-1.28-1.7-1.28-3.245 0-1.543.81-2.304 1.097-2.62a1.16 1.16 0 0 1 .84-.391c.21 0 .42.002.604.01.193.01.452-.073.708.54.265.637.898 2.192.977 2.35.08.157.132.34.027.547-.106.21-.159.34-.318.524-.16.183-.336.41-.48.55-.16.157-.326.328-.14.642.187.314.83 1.37 1.784 2.217 1.225 1.09 2.257 1.428 2.573 1.59.316.162.5.135.684-.08.186-.214.79-.923.999-1.24.21-.317.42-.264.708-.159.29.106 1.837.867 2.153 1.024.316.157.527.236.606.366.08.132.08.764-.185 1.505z"/></svg>
+            WhatsApp · 660 29 49 79
+          </a>
+        </div>
+        <div class="horarios-table-wrap" aria-label="Tabla de horarios">
+          <table class="horarios-table">
+            <caption class="sr-only">Horario semanal de Mimados Peluquería Canina</caption>
+            <tbody>
+              <tr><th scope="row">Lunes</th><td>10:00 AM – 1:30 PM</td></tr>
+              <tr><th scope="row">Martes</th><td>10:00 AM – 8:30 PM</td></tr>
+              <tr><th scope="row">Miércoles</th><td>10:00 AM – 8:30 PM</td></tr>
+              <tr><th scope="row">Jueves</th><td>10:00 AM – 8:30 PM</td></tr>
+              <tr><th scope="row">Viernes</th><td>10:00 AM – 8:30 PM</td></tr>
+              <tr><th scope="row">Sábado</th><td>10:00 AM – 1:30 PM</td></tr>
+              <tr class="closed"><th scope="row">Domingo</th><td>Cerrado</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESERVAS (WhatsApp form) ===== -->
+  <section class="section" id="reserva" aria-labelledby="reserva-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">¡Es fácil!</span>
+        <h2 id="reserva-title">Reservar tu Cita</h2>
+        <p>Rellena el formulario y te enviaremos el mensaje directamente a WhatsApp. ¡En segundos!</p>
+      </div>
+      <div class="reserva-wrapper">
+        <form id="reservaForm" class="reserva-form" novalidate aria-label="Formulario de reserva de cita">
+          <div class="form-group">
+            <label for="owner-name">Tu nombre</label>
+            <input type="text" id="owner-name" name="owner-name" placeholder="Ej: María García" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="dog-name">Nombre de tu mascota</label>
+            <input type="text" id="dog-name" name="dog-name" placeholder="Ej: Tobi" required />
+          </div>
+          <div class="form-group">
+            <label for="dog-breed">Raza</label>
+            <input type="text" id="dog-breed" name="dog-breed" placeholder="Ej: Bichón Maltés" />
+          </div>
+          <div class="form-group">
+            <label for="service-type">Servicio deseado</label>
+            <select id="service-type" name="service-type">
+              <option value="">Selecciona un servicio...</option>
+              <option value="Baño y secado">Baño y secado</option>
+              <option value="Corte y estilismo">Corte y estilismo</option>
+              <option value="Estética completa">Estética completa (baño + corte + higiene)</option>
+              <option value="Desparasitación">Antiparasitario</option>
+              <option value="Asesoramiento">Solo asesoramiento</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="preferred-date">Día preferido</label>
+            <input type="date" id="preferred-date" name="preferred-date" min="" />
+          </div>
+          <div class="form-group">
+            <label for="extra-info">Comentarios adicionales</label>
+            <textarea id="extra-info" name="extra-info" rows="3" placeholder="Alguna alergia, comportamiento especial, etc."></textarea>
+          </div>
+          <button type="submit" class="btn-submit" id="btn-enviar-whatsapp" aria-label="Enviar reserva por WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 0C5.374 0 0 5.373 0 12c0 2.116.553 4.103 1.518 5.83L.057 23.486a.5.5 0 0 0 .612.612l5.656-1.461A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm6.244 16.912c-.265.742-1.543 1.416-2.121 1.498-.54.077-1.224.11-1.977-.124a18.06 18.06 0 0 1-1.79-.663c-3.15-1.35-5.21-4.5-5.368-4.71-.156-.21-1.28-1.7-1.28-3.245 0-1.543.81-2.304 1.097-2.62a1.16 1.16 0 0 1 .84-.391c.21 0 .42.002.604.01.193.01.452-.073.708.54.265.637.898 2.192.977 2.35.08.157.132.34.027.547-.106.21-.159.34-.318.524-.16.183-.336.41-.48.55-.16.157-.326.328-.14.642.187.314.83 1.37 1.784 2.217 1.225 1.09 2.257 1.428 2.573 1.59.316.162.5.135.684-.08.186-.214.79-.923.999-1.24.21-.317.42-.264.708-.159.29.106 1.837.867 2.153 1.024.316.157.527.236.606.366.08.132.08.764-.185 1.505z"/></svg>
+            Enviar reserva por WhatsApp
+          </button>
+        </form>
+        <aside class="reserva-info" aria-label="Información de contacto">
+          <div class="reserva-contact-card">
+            <div class="contact-avatar" aria-hidden="true">🐾</div>
+            <h3>¿Prefieres llamar?</h3>
+            <a href="tel:+34660294979" class="contact-phone" id="contacto-telefono" aria-label="Llamar al 660 29 49 79">660 29 49 79</a>
+            <p class="contact-note">También puedes pasarte directamente por el local, estamos en el <strong>centro del pueblo</strong>.</p>
+            <div class="contact-address">
+              <span aria-hidden="true">📍</span>
+              <address>C. Azorín, Nº 34<br/>Alhama de Murcia, 30840<br/>Murcia</address>
+            </div>
+          </div>
+          <div class="reserva-tip">
+            <span aria-hidden="true">💡</span>
+            <p>Recomendamos dar un paseo previo a tu mascota para que llegue más relajada a la sesión.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== UBICACIÓN ===== -->
+  <section class="section section-alt" id="ubicacion" aria-labelledby="ubicacion-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Fácil de encontrar</span>
+        <h2 id="ubicacion-title">Estamos en el Centro</h2>
+        <p>C. Azorín, Nº 34 · Alhama de Murcia · 30840 · Murcia</p>
+      </div>
+      <div class="ubicacion-grid">
+        <div class="map-wrap">
+          <iframe
+            title="Mapa de Mimados Peluquería Canina, C. Azorín 34, Alhama de Murcia"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.6!2d-1.4257!3d37.8469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6388de5f0d3c43%3A0x4b9e2f2b9e3d9e3d!2sC.%20Azor%C3%ADn%2C%2034%2C%2030840%20Alhama%20de%20Murcia%2C%20Murcia!5e0!3m2!1ses!2ses!4v1692000000000!5m2!1ses!2ses"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            aria-label="Mapa de Google mostrando la ubicación de Mimados"
+          ></iframe>
+        </div>
+        <div class="ubicacion-info">
+          <div class="ubicacion-card">
+            <span class="ubicacion-icon" aria-hidden="true">📍</span>
+            <div>
+              <strong>Dirección</strong>
+              <address>C. Azorín, Nº 34<br/>Alhama de Murcia, 30840<br/>Murcia, España</address>
+            </div>
+          </div>
+          <div class="ubicacion-card">
+            <span class="ubicacion-icon" aria-hidden="true">📞</span>
+            <div>
+              <strong>Teléfono / WhatsApp</strong>
+              <a href="tel:+34660294979" class="ubicacion-tel" id="ubicacion-telefono">660 29 49 79</a>
+            </div>
+          </div>
+          <div class="ubicacion-card">
+            <span class="ubicacion-icon" aria-hidden="true">♿</span>
+            <div>
+              <strong>Accesibilidad</strong>
+              <span>Acceso adaptado para silla de ruedas</span>
+            </div>
+          </div>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=C.+Azorín+34+Alhama+de+Murcia+30840"
+             target="_blank" rel="noopener noreferrer"
+             class="btn-primary" id="btn-como-llegar" aria-label="Abrir Google Maps para ir a Mimados">
+            Cómo llegar 🗺️
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="logo-paw" aria-hidden="true">🐾</span>
+        <span class="logo-text">Mimados</span>
+        <p>Peluquería &amp; Estética Canina<br/>Alhama de Murcia</p>
+      </div>
+      <nav class="footer-links" aria-label="Navegación del pie de página">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#diplomas">Diplomas</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#reserva">Reservar</a>
+      </nav>
+      <div class="footer-contact">
+        <a href="tel:+34660294979" aria-label="Llamar a Mimados">📞 660 29 49 79</a>
+        <a href="https://wa.me/34660294979" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Mimados">💬 WhatsApp</a>
+        <address>C. Azorín, Nº 34 · Alhama de Murcia</address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Mimados Peluquería Canina · Alhama de Murcia 🐾</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a href="https://wa.me/34660294979?text=Hola%20Mimados%2C%20me%20gustar%C3%ADa%20reservar%20una%20cita%20para%20mi%20mascota%20%F0%9F%90%BE"
+     class="fab-whatsapp" target="_blank" rel="noopener noreferrer"
+     id="fab-whatsapp" aria-label="Contactar por WhatsApp con Mimados">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 0C5.374 0 0 5.373 0 12c0 2.116.553 4.103 1.518 5.83L.057 23.486a.5.5 0 0 0 .612.612l5.656-1.461A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm6.244 16.912c-.265.742-1.543 1.416-2.121 1.498-.54.077-1.224.11-1.977-.124a18.06 18.06 0 0 1-1.79-.663c-3.15-1.35-5.21-4.5-5.368-4.71-.156-.21-1.28-1.7-1.28-3.245 0-1.543.81-2.304 1.097-2.62a1.16 1.16 0 0 1 .84-.391c.21 0 .42.002.604.01.193.01.452-.073.708.54.265.637.898 2.192.977 2.35.08.157.132.34.027.547-.106.21-.159.34-.318.524-.16.183-.336.41-.48.55-.16.157-.326.328-.14.642.187.314.83 1.37 1.784 2.217 1.225 1.09 2.257 1.428 2.573 1.59.316.162.5.135.684-.08.186-.214.79-.923.999-1.24.21-.317.42-.264.708-.159.29.106 1.837.867 2.153 1.024.316.157.527.236.606.366.08.132.08.764-.185 1.505z"/></svg>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
